@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "stat-filter"
+version = "0.1.0"
+description = "A statistical filter to detect smooth periods in time series."
+authors = ["Rich Inman <rinman24@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
